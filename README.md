@@ -7,3 +7,8 @@ Great alternative for quick 'n neat CRC/hashing applications, performs 4x faster
 
 ===================
 Distributed under LGPL 2.1 -- http://www.gnu.org/licenses/lgpl-2.1.txt
+
+2022
+==========
+
+Updated version is located at: https://github.com/SukkoPera/Arduino-Rokkit-Hash/
