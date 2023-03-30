@@ -51,7 +51,7 @@ uint32_t rokkit(const char * data, int len) {
     switch (rem) {
         case 3: hash += *((uint16_t*)data);
                 hash ^= hash << 16;
-                hash ^= ((signed char)data[2]) << 18;
+                hash ^= ((uint32_t)(signed char)data[2]) << 18;
                 hash += hash >> 11;
                 break;
         case 2: hash += *((uint16_t*)data);
